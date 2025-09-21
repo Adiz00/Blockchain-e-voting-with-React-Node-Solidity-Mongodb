@@ -1,0 +1,75 @@
+
+
+/* .ant-menu-light .ant-menu-item-selected{
+  background-color: green !important;
+  color: white !important;
+   */
+/* } */
+
+.ant-menu-submenu{
+  padding-left: 0px !important;
+  margin-left: 0px !important;
+  border-radius: 0px !important;
+
+}
+.ant-menu-inline{
+  border-radius: 0px !important;
+
+}
+.ant-menu-submenu-active{
+  border-radius: 0px !important;
+}
+.ant-menu-submenu-title{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  margin-left: 0px !important;
+  border-radius: 0px 5px 5px 0px !important;	
+  /* background-color: #307cae; */
+  /* color: #307cae !important; */
+  height: auto !important;	
+
+}
+.ant-menu-submenu-arrow{
+  display: none !important;
+}
+.ant-menu{
+  border-radius: 0px !important;
+}
+.ant-menu-title-content{
+  height: auto !important;	
+}
+
+@media (max-width:1000px){
+  .ant-layout .site-layout{
+    margin-left: 60px !important;
+    background-color: #1A202A !important;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
+
+.menu-item {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+@media (min-width: 992px) {
+  .menu-item {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+}
+
+/* Styles for screens narrower than 992px */
+@media (max-width: 991px) {
+  .menu-item {
+    padding-left: 0 !important;
+  }
+}
+
+/* Styles for sidebar when screen is wider than 992px */
+@media (max-width: 991px) {
+  .ant-menu-submenu-title {
+    width: auto !important;
+    margin: auto !important;
+  }
+}
